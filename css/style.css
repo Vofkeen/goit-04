@@ -320,7 +320,35 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
 .team-list {
     list-style: none;
 }
+.social-links {
+    display: flex;
+    justify-content: center;
+}
 
+.social-item {
+    fill: #AFB1B8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.social-links li:not(:last-child) {
+    margin-right: 9px;
+}
+
+.social-item:hover,
+.social-item:focus {
+    fill: var(--color-white-text);
+    background-color: var(--color-action);
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+}
 .employee {
     background-color: var(--color-white-background);
     margin-right: 30px;
