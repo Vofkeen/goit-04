@@ -154,8 +154,22 @@
     padding-top: 200px;
     padding-bottom: 200px;
     background-color: var(--color-futter-background);
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.overlay {
+    max-width: 1600px;
+    height: 600px;
+    background-image: linear-gradient(to right,
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)),
+            url(../images/Header-image.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}
 .hero-title {
     color: var(--color-white-text);
     font-weight: 900;
