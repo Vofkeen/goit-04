@@ -61,6 +61,17 @@
     border-bottom: 1px solid var(--color-line-header);
 }
 
+.icon {
+    margin-right: 10px;
+}
+.mail {
+    width: 16px;
+    height: 12px;
+}
+.phone {
+    width: 10px;
+    height: 16px;
+}
 .logo {
     color: var(--color-dark);
     font-family: "Raleway", sans-serif;
@@ -120,9 +131,12 @@
     font-weight: 500;
     line-height: 1.15;
     text-decoration: none;
-    display: block;
+    display: flex;
+    align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
+    height: 16px;
+    fill: var(--color-primary-text) ;
 }
 
 .site-nav .link.current {
@@ -132,6 +146,7 @@
 .auth-nav .link:hover,
 .auth-nav .link:focus {
     color: var(--color-action);
+    fill: var(--color-action)
 }
 
 .hero {
