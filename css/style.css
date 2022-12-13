@@ -221,6 +221,7 @@
     margin-bottom: 0px;
 }
 
+
 .feature-list {
     list-style: none;
     margin-top: 0;
@@ -238,7 +239,19 @@
 .feature-list .item:last-child {
     margin-right: 0px;
 }
-
+.features-container {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.features-icon {
+    width: 70px;
+    height: 70px;
+}
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
