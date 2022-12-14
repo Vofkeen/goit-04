@@ -47,6 +47,7 @@
 }
 .flex-container{
     display: flex;
+    align-items: baseline;
 }
 .section {
     padding-top: 94px;
